@@ -19,8 +19,11 @@ Make sure you have yarn and react-native-cli installed for your OS then:
 All source code can be found under the app/
 This allows you to write code once for both platforms
 
+# Debugging
+-----------------------
+https://facebook.github.io/react-native/docs/debugging.html
 
-# issues
+# Issues
 -----------------------
 we ran into an issue with crypto not being recognized in some of our modules.  The `react-native-crypto` is a fix for this for the time being.
 Our hope is that react-native will fix this issue inside of react-native's source code. https://github.com/mvayngrib/react-native-crypto
