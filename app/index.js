@@ -3,6 +3,8 @@
 import React, {Component}               from 'react';
 import { createStore, applyMiddleware, combineReducers } from 'redux';
 import { Provider }                     from 'react-redux';
+import thunk                            from 'redux-thunk';
+import * as reducers                    from './js/reducers';
 import HomeVideo                        from './js/components/homeVideo';
 
 const createStoreWithMiddleware = applyMiddleware(thunk)(createStore);
