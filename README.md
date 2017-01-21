@@ -18,3 +18,12 @@ Make sure you have yarn and react-native-cli installed for your OS then:
 -----------------------
 All source code can be found under the app/
 This allows you to write code once for both platforms
+
+
+# issues
+-----------------------
+we ran into an issue with crypto not being recognized in some of our modules.  The `react-native-crypto` is a fix for this for the time being.
+Our hope is that react-native will fix this issue inside of react-native's source code. https://github.com/mvayngrib/react-native-crypto
+
+This package creates a shim.js file that needs to stay at the root of the project.  You need to make sure that this is being referenced in our
+index.android.js and index.ios.js
